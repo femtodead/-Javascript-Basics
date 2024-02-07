@@ -7,7 +7,7 @@
 let degreesCelsius = 10;
 let degreesFaringheit = (9/5) * degreesCelsius + 32;
 
-console.log(`Градусы Цельсия = ${degreesCelsius} Градусы Фаренгейта = ${degreesFaringheit}`)
+console.log(`Градусы Цельсия = ${degreesCelsius} Градусы Фаренгейта = ${degreesFaringheit}`);
 
 
 

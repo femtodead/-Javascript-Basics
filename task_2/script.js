@@ -3,9 +3,9 @@
 // Проверьте, что переменная num1 равна или меньше 1, а переменная num2 больше или равна 3.
 
 let num1 = Number(prompt("Введите переменную num1")) ;
-alert((num1 <= 1) ? "num1 <= 1": "num1 > 1")
+alert((num1 <= 1) ? "num1 <= 1": "num1 > 1");
 let num2 = Number(prompt("Введите переменную num2"));
-alert((num2 >= 3) ? "num2 >= 3": "num1 < 3")
+alert((num2 >= 3) ? "num2 >= 3": "num1 < 3");
 
 
 

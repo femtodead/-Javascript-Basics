@@ -50,3 +50,14 @@ for (let index = 0; index < 5; index++) {
     }   
 }
 console.log(`В данном массиве [${arr}] есть ${count} троек`);
+
+
+// *Необязательное задание. *
+// Необходимо вывести горку в консоль (используя цикл for), как показано на рисунке, только у вашей горки должно быть 20 рядов, а не 5:
+
+
+let xString = "x";
+for (let index = 0; index < 20; index++) {
+    console.log(`${xString}`);
+    xString = xString+"x";
+}

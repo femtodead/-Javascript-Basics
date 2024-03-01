@@ -109,8 +109,6 @@ price: 78,
 function filtr(prod) {
     const list = [];
     for (let index = 0; index < prod.length; index++) {
-        console.log();
-        console.log();
         if (("photos" in prod[index]) && (prod[index].photos.length != 0)) {
             list.push(prod[index]);
         }

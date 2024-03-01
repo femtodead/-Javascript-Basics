@@ -106,7 +106,7 @@ price: 78,
 }
 ];
 
-function filtr(prod) {
+function filtr(prod) { // 1 вариан
     const list = [];
     for (let index = 0; index < prod.length; index++) {
         if (("photos" in prod[index]) && (prod[index].photos.length != 0)) {
@@ -117,7 +117,7 @@ function filtr(prod) {
 };
 
 const productsFilte = filtr(products2);
-const productsFilte2 = products2.filter((prod) =>
+const productsFilte2 = products2.filter((prod) => // 2 вариан
 {
     if (("photos" in prod) && (prod.photos.length != 0)){
         return true;
@@ -131,12 +131,12 @@ console.log(productsFilte);
 console.log(productsFilte2);
 
 const products3 = products2;
-console.log(products3);
-products3.sort((a,b) => a.price > b.price ? 1:-1);
+
+products3.sort((a,b) => a.price > b.price ? 1:-1); // 1 вариан
 console.log(products3);
 
 console.log(products2);
-function sort(prod){
+function sort(prod){ // 2 вариан
     let temp;
     for (let i = 0; i < prod.length; i++) {
         for (let j = 0; j < prod.length; j++) {
